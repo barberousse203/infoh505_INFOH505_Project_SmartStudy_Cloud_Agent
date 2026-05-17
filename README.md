@@ -19,7 +19,7 @@ PDF upload to Google Cloud Storage
 ## Repository Structure
 
 ```text
-github-smartstud/
+infoh505_INFOH505_Project_SmartStudy_Cloud_Agent/
 ├── cloud_function/
 │   ├── main.py
 │   └── requirements.txt
