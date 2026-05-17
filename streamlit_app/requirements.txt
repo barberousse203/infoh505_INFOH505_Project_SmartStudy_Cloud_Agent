@@ -1,0 +1,23 @@
+# SmartStudy — app/requirements.txt
+
+# Core
+streamlit>=1.35.0
+
+# LangChain ecosystem
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-google-vertexai>=1.0.6
+langchain-mongodb>=0.1.3
+
+# Google Cloud / Vertex AI
+google-cloud-aiplatform>=1.57.0
+google-auth>=2.29.0
+
+# MongoDB
+pymongo[srv]>=4.7.0
+
+# PDF (used by Cloud Function, imported in shared modules)
+pypdf>=4.2.0
+
+# Utilities
+python-dotenv>=1.0.0
